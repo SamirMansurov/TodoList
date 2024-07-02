@@ -1,0 +1,63 @@
+
+.todo-container {
+    margin-top: 80px;
+    padding-left: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+.todo-item {
+    padding: 10px;
+    border: 2px solid rgb(49, 168, 253);
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    position: relative;
+
+}
+
+.todo-item h3 {
+    margin-top: 0;
+}
+
+.todo-item p {
+    margin-bottom: 10px;
+}
+
+.todo-item button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+.done {
+    text-decoration: line-through;
+    color: #999;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    height: 23px;
+    border: 1px solid rgb(49, 168, 253);
+}
+
+
+#todoForm button {
+    width: 70px;
+    height: 27px;
+    background-color: aqua;
+    border: none;
+    border-radius: 3px;
+}
